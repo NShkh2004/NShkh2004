@@ -1,0 +1,70 @@
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+=================== RESTART: C:/Users/LENOVO/Desktop/nari.py ===================
+Customer's Name: Nar14ges
+only letters
+Customer's Name: Narges
+Customer's Family: Shaori
+Customer's ID: 125210
+Enter product name (book,pen,note): book
+Enter quantity:10
+		Do you have more items? (y|n): y
+Enter product name (book,pen,note): pen
+Enter quantity:70
+	 Out of range..
+	 Normal Range[0...50
+Enter quantity:30
+		Do you have more items? (y|n): n
+
+ID: 125210    Name: Narges    Family: Shaori
+
+=======================
+Product	Tedad	Price	Total	Discount	Payment
+________________________________________________
+book	10	1000	10000.00	1000.00	9000.00
+pen	30	200	6000.00	300.00	5700.00
+________________________________________________
+Total	40		16000.00	1300.00	14700.00
+Do you have another invoice? (y/n): y
+Customer's Name: Zahra
+Customer's Family: Asadi
+Customer's ID: 741471471
+Enter product name (book,pen,note): note
+Enter quantity:1
+		Do you have more items? (y|n): n
+
+ID: 741471471    Name: Zahra    Family: Asadi
+
+=======================
+Product	Tedad	Price	Total	Discount	Payment
+________________________________________________
+note	1	250	250.00	 0.00	250.00
+________________________________________________
+Total	1		250.00	 0.00	250.00
+Do you have another invoice? (y/n): n
+
+================= Factorha =================
+
+ID: 125210    Name: Narges    Family: Shaori
+
+=======================
+Product	Tedad	Price	Total	Discount	Payment
+________________________________________________
+book	10	1000	10000.00	1000.00	9000.00
+pen	30	200	6000.00	300.00	5700.00
+________________________________________________
+Total	40		16000.00	1300.00	14700.00
+
+ID: 741471471    Name: Zahra    Family: Asadi
+
+=======================
+Product	Tedad	Price	Total	Discount	Payment
+________________________________________________
+note	1	250	250.00	 0.00	250.00
+________________________________________________
+Total	1		250.00	 0.00	250.00
+product	gozaresh	BaghiMande
+book	10	{'price': 1000, 'discount': 0.1, 'stock': 40}
+pen	30	{'price': 200, 'discount': 0.05, 'stock': 20}
+note	1	{'price': 250, 'discount': 0.0, 'stock': 19}
